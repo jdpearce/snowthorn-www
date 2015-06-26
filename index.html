@@ -1,20 +1,20 @@
 <html>
 	<head>
-		<title>Snowthorn</title>
+		<title>snowthorn</title>
 		<style>
-			@import "http://fonts.googleapis.com/css?family=Yantramanav:400,700";
+			@import "http://fonts.googleapis.com/css?family=Oxygen:400,700";
 			@import "normalize.css";
 			
-			body { background-color: #537894;}
-			div, h1, h2, h3, p, li { font-family: 'Yantramanav'; font-weight: 400;}
-			header { background-color: #809db4; }
-			header > h1 { font-size: 3em; font-weight: 400;}
-			header > h3 { font-style: italic; font-weight: 400;}
-			footer { background-color: #537894;; font-size: 1em; font-style: italic; }
-			.about-us { background-color: #dce6ee; }
-			.connect { background-color: #809db4; }
+			div, h1, h2, h3, p, li { font-family: 'Oxygen'; font-weight: 400;}
+			.connect-label { display:inline-block; width: 10em;}
+			sup { color: lightskyblue; }
+			.content > h2 { font-size: 2em; }
+			footer { font-size: 1em; font-style: italic; }
+			header > .content > h1 { font-size: 3.5em; font-weight: 400; margin-bottom: 0.1em; }
+			header > .content > h3 { font-style: italic; font-weight: 400;  }
 			.content { padding: 1em; margin: 0px auto; width: 900px; }
-			.profile { float:right; width: 200px; height: 200px; background-color: white}
+			
+			li { list-style: none; }
 			
 			/* mobile */
 			@media screen and (max-width: 1000px) {
@@ -26,34 +26,78 @@
 		
 		<header>
 			<div class="content">
-				<h1>Snowthorn</h1>
-				<h3>Intelligent, pragmatic technology consulting.</h2>
+				<h1><sup>*</sup>snowthorn.</h1>
+				<h3>Intelligent, pragmatic technology solutions.</h2>
 			</div>
 		</header>
 		
-		<div class="about-us">
+		<div class="about">
 			<div class="content">
-				<h1>about us</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h2><sup>*</sup>about.</h1>
+				<p>
+					Snowthorn was started back in February 2014 with the simple aim of offering experience, advice 
+					and expertise to help companies translate business needs into smart software solutions.
+				</p>
+				<p>
+					However simple it sounds, we believe there is far more to building solutions than simply 
+					choosing the right technology and architecture.
+				</p>
+				<p>
+					The capabilities of your team to not only write the code but also understand and maintain it 
+					are essential to consider. Prescriptive architecture and restrictive business environments can
+					leave a team with their burn down rate flatlining.
+				</p>
+				<p>
+					Our experience across the full solution development lifecycle leads to a more holistic approach
+					to problem solving. We can help you learn what is possible and what the right approach should be
+					for you and your business.
+				</p>
 			</div>
 		</div>	
 		
+		<div class="whoarewe">
+			<div class="content">
+				<h2><sup>*</sup>who are we?</h1>
+
+			</div>
+		</div>			
+		
 		<div class="connect">
 			<div class="content">
-				<h1>connect</h1>
+				<h2><sup>*</sup>connect.</h1>
+				<p>Get in touch to start a conversation :</p>
 				<ul>
-					<li>Email</li>
-					<li>Twitter</li>
-					<li>Lanyrd</li>
-					<li>Linkedin</li>
-					<li>GitHub</li>
+					<li class="icon-mail">
+						<a href="mailto:info@snowthorn.co.uk">
+			                <span class="icon"><img src="icon_mail.png" alt="Send me an email." border="0"></span>
+							<span class="email">info@snowthorn.co.uk</span>
+						</a>
+					</li>
+					<li class="icon-twitter">
+						<a href="https://twitter.com/jdpearce">
+			                <span class="icon"><img src="icon_twitter.png" alt="Send me tweet." border="0"></span>
+			            	<span class="username">jdpearce</span>
+            			</a>
+					</li>
+					<li class="icon-linkedin">
+						<a href="https://uk.linkedin.com/jodanielpearce">
+			                <span class="icon"><img src="icon_linkedin.png" alt="View my linkedin profile." border="0"></span>
+			            	<span class="username">uk.linkedin.com/jodanielpearce</span>
+            			</a>					
+					</li>
+					<li class="icon-github">
+						<a href="https://github.com/jdpearce">
+			                <span class="icon"><img src="icon_github.png" alt="My public source repositories." border="0"></span>
+			            	<span class="username">jdpearce</span>
+            			</a>
+					</li>
 				</ul>
 			</div>
 		</div>		
 		
 		<footer>
 			<div class="content">			
-				<p>&copy; 2015 Snowthorn Ltd.</p>
+				<p>&copy; 2015 <sup>*</sup>snowthorn ltd.</p>
 			</div>
 		</footer>
 		
