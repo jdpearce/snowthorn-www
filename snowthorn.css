@@ -1,0 +1,34 @@
+div, h1, h2, h3, p, li { font-family: 'Oxygen'; font-weight: 400;}
+.connect-label { display:inline-block; width: 10em;}
+sup { color: lightskyblue; font-weight: bold; }
+.content > h2 { font-size: 2em; }
+footer { font-size: 1em; font-style: italic; }
+header > .content > h1 { font-size: 3.5em; font-weight: 400; margin-bottom: 0.1em; }
+header > .content > h3 { font-style: italic; font-weight: 400;  }
+.content { padding: 1em; margin: 0px auto; width: 900px; }
+.profile > .headshot { float : right; }
+a::visited { color : black}
+a { color : lightskyblue; font-weight: bold;};
+
+li { list-style: none;}
+
+.icon {
+	line-height : 42px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 60px;
+}
+
+.icon-email { background-image: url(icon_mail.png); }			
+.icon-twitter { background-image: url(icon_twitter.png); }			
+.icon-linkedin { background-image: url(icon_linkedin.png); }		
+.icon-accessibility { background-image: url(accessibility.png); }			
+.icon-bug { background-image: url(bug.png); }			
+.icon-cogs { background-image: url(cogs.png); }						
+.icon-search { background-image: url(search.png); }						
+.icon-tree { background-image: url(tree.png); }						
+
+/* mobile */
+@media screen and (max-width: 1000px) {
+	.content { width: 80%;}
+}
