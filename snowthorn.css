@@ -8,7 +8,7 @@ header > .content > h3 { font-style: italic; font-weight: 400;  }
 .content { padding: 1em; margin: 0px auto; width: 900px; }
 .profile > .headshot { float : right; }
 a::visited { color : black}
-a { color : lightskyblue; font-weight: bold;};
+a { color : lightskyblue; font-weight: bold; }
 
 li { list-style: none;}
 
