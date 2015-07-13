@@ -1,0 +1,26 @@
+{
+  "name": "snowthorn-www",
+  "description": "A basic landing page for *snowthorn.co.uk",
+  "author": "Jo Pearce <jo.pearce@snowthorn.co.uk>",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "homepage": "http://www.snowthorn.co.uk/",
+    "url": "https://github.com/jdpearce/snowthorn-www.git"
+  },
+  "keywords": [
+    "software",
+    "consultancy",
+    "badgers"
+  ],
+  "dependencies": {
+    "grunt": ">=0.4.0",
+    "grunt-contrib-copy": "0.4.x",
+    "grunt-contrib-clean": "0.5.x",
+    "grunt-contrib-cssmin": "0.6.x"
+  },
+  "engine": "node >= 0.10",
+  "devDependencies": {
+    "grunt-contrib-imagemin": "^0.9.4"
+  }
+}
