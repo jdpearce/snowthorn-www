@@ -19,8 +19,5 @@
     "grunt-contrib-clean": "0.5.x",
     "grunt-contrib-cssmin": "0.6.x"
   },
-  "engine": "node >= 0.10",
-  "devDependencies": {
-    "grunt-contrib-imagemin": "^0.9.4"
-  }
+  "engine": "node >= 0.10"
 }
