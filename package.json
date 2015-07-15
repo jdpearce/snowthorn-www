@@ -1,6 +1,6 @@
 {
   "name": "snowthorn-www",
-  "description": "A basic landing page for *snowthorn.co.uk",
+  "description": "A basic site for *snowthorn.co.uk",
   "author": "Jo Pearce <jo.pearce@snowthorn.co.uk>",
   "version": "1.0.0",
   "repository": {
@@ -13,11 +13,13 @@
     "consultancy",
     "badgers"
   ],
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "grunt": ">=0.4.0",
-    "grunt-contrib-copy": "0.4.x",
     "grunt-contrib-clean": "0.5.x",
-    "grunt-contrib-cssmin": "0.6.x"
-  },
-  "engine": "node >= 0.10"
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-copy": "0.4.x",
+    "grunt-contrib-cssmin": "0.6.x",
+    "grunt-contrib-watch": "^0.6.1"
+  }
 }
