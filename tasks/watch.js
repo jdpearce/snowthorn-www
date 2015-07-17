@@ -5,7 +5,7 @@ module.exports = function(grunt) {
             options: {
                 livereload : true,
             },
-            files: 'src/**',
+            files: ['src/**', 'tasks/**', 'layouts/**', 'posts/**'],
             tasks: ['rebuild']
         }
     });

@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 		pkg : require('./package.json')
 	});
 	
-	grunt.loadTasks('grunt');
+	grunt.loadTasks('tasks');
 
 	grunt.registerTask(
   		'stylesheets', 
@@ -14,9 +14,15 @@ module.exports = function(grunt) {
 	grunt.registerTask(
   		'rebuild', 
   		'Compiles all of the assets and copies the files to the build directory.', 
-  		[ 'clean:build', 'copy', 'stylesheets']
+  		[ 'clean:build', 'copy', 'stylesheets', 'pages']
 	);
-
+	
+	grunt.registerTask(
+  		'blog', 
+  		'Simply cleans the build folder and runs pages.', 
+  		[ 'clean:build', 'pages']
+	);
+	
 	grunt.registerTask(
   		'default', 
   		'Rebuilds, runs connect and then sits watching the src folder.', 
