@@ -2,10 +2,11 @@ div, h1, h2, h3, p, li { font-family: 'Oxygen'; font-weight: 400;}
 .connect-label { display:inline-block; width: 10em;}
 sup { color: lightskyblue; font-weight: bold; }
 .content > h2 { font-size: 2em; }
+.quote { font-style: italic; font-size: 0.8em; text-align: center;}
 footer { font-size: 1em; font-style: italic; }
 header h1 { font-size: 3.5em; font-weight: 400; margin-bottom: 0.1em; }
 header h3 { font-style: italic; font-weight: 400;  }
-header, .content, footer { padding: 1em; margin: 0px auto; width: 900px; }
+header, .content, footer { padding: 0.5em; margin: 0px auto; width: 900px; }
 a::visited { color : black}
 a { color : lightskyblue; font-weight: bold; }
 

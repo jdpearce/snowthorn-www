@@ -3,9 +3,10 @@ html
   head
     meta(charset="utf8")
     meta(name="viewport", content="width=device-width")
-    link(href="/css/site.css", rel="stylesheet")
+    link(href="/css/site.css", rel="stylesheet" type="text/css")
+    link(href="http://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet" type="text/css") 
     block title
-      title= "*snowthorn (esoterica)"
+      title= snowthorn
   body
     header
       h1 
@@ -13,6 +14,8 @@ html
         = post.title.toLowerCase()
         | .
       h3= post.date.toDateString()
-                
+      
+               
     .content
+      p.quote= post.quote
       p!= post.content
